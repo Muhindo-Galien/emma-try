@@ -21,6 +21,7 @@ const NavBar = () => {
       toast.error(error.message);
     }
   }
+  
   return (
     <div className=" sm:px-8 bg-white z-5 mx-auto w-full fixed shadow-sm">
         <div className=' flex items-center justify-between py-4 sm:mx-0 mx-4 '>
